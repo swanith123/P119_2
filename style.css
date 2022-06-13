@@ -1,0 +1,63 @@
+h1
+{
+  color:rgb(255, 238, 0);
+  background-color: rgb(236, 57, 57);
+}
+
+body{
+    background: rgb(255,0,0);
+background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(173,232,229,1) 0%, rgba(23,163,221,1) 100%);
+font-family: 'Cabin', sans-serif;
+}
+
+#showSketch
+{
+  float:right;
+}
+
+
+canvas 
+  {
+    border:5px solid white;
+    border-radius:20px;
+    margin-top:150px;
+    box-shadow:5px 5px 5px grey;
+    box-shadow: 1px 1px 38px #ffffff;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px rgb(0, 0, 0);}
+  to {box-shadow: 1px 1px 38px white;}
+
+}
+
+
+p, span
+  {
+    padding-top:10px;
+    font-size:25px;
+    
+  }
+
+.score{
+  float: left;
+  margin-left: 100px;
+}
+
+.timer{
+  float: right;
+  margin-right: 100px;
+}
+
+#span_score{
+  float: left;
+  margin-right: 50px;
+}
+
+#span_timer{
+  float: right;
+  margin-left: 50px;
+}
